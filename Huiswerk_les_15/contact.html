@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contactformulier</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="stijl/main.css">
+  </head>
+  <body>
+    <header>
+      <img src="afbeeldingen/logo nw transparant (3).gif" alt="logo bizz id" height="75">
+      <h1>Ondernemen begint met gezond boerenverstand!</h1>
+      <ul>
+        <li class="menu1"><a href="index.html">Over mij</a></li>
+        <li class="menu1"><a href="mijncv.html">Mijn CV</a></li>
+        <li class="menu1"><a href="contact.html">Contact</a></li>
+      </ul>
+    </header>
+    <section class="contact">
+      <h2>Contactformulier</h2>
+      <form class="contactform" method="post" action="https://formspree.io/f/mleaqyvw">
+          <input type="text" name="voornaam" placeholder="Uw voornaam">
+          <input type="text" name="achternaam" placeholder="Uw achternaam">
+          <input type="email" name="email" placeholder="Uw mailadres">
+          <textarea placeholder="Type hier uw bericht"></textarea>
+          <p>Wil je mijn nieuwsbrief ontvangen?</p>
+          <input type="radio" name="nieuwsbrief" value="ja">Ja
+          <input type="radio" name="nieuwsbrief" value="nee">Nee
+          <button type="submit">Verzend</button>
+      </form>
+    </section>
+    <footer>
+      <p>Copywright: Bizz ID ©</p>
+    </footer>
+  </body>
+</html>
